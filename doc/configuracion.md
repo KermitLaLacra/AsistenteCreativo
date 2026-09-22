@@ -6,5 +6,5 @@
 ## 2- Creación de la branch "Objetivo-0" utilizando el plugin "iv"
 <img width="886" height="109" alt="image" src="creacionRama.png" /> <br>
 
-## 3- Primer push a la branch "Objetivo-0"
-<img width="886" height="353" alt="image" src="primerPush.png" /> <br>
+## 3- Comprobación de la clave SSH
+<img width="1327" height="87" alt="image" src="primerPush.png" /> <br>
