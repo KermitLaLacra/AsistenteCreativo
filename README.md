@@ -4,10 +4,9 @@ Asistente para creativos freelance que busca gestionar contrataciones, desplazam
 
 ## Descripción del problema
 
-Soy fotógrafo y videógrafo. En momentos de alta demanda se dificulta la organización de mi agenda debido a mi disponibilidad y la de los clientes, los desplazamientos entre ubicaciones y la duración de cada sesión. De igual manera el cálculo de las tarifas para cada cliente se dificulta ya que no todos están interesados en los mismos servicios, cada servicio adicional requiere de mayor tiempo de producción, y para llegar a cada cliente es necesario un desplazamiento distinto.<br>
+Soy fotógrafo y videógrafo. Necesito constantemente planificar mis horarios según las necesidades y ubicación de cada cliente, asi como calcular tarifas teniendo en cuenta servicios contratados y tiempo consumido por cada uno, horas necesarias para cada servicio y distancia de desplazamiento entre sesiones consecutivas.<br>
 
-Organizar todo esto manualmente requiere de mucho tiempo y esfuerzo que podría dedicar a tareas mas importantes relacionadas con los servicios que ofrezco, y la mala gestión puede resultar en el peor de los casos en la perdida de potencial beneficio, clientes y oportunidades.<br>
-
+Debido a que resulta dificil dar con la respuesta que optimice y tenga en cuenta todas estas variables, es común acabar con una agenda con horas muertas y rutas ineficientes, limitando el número máximo de clientes atendidos en un determinado período de tiempo y afectando en última instancia a mis ingresos potenciales.<br>
 
 
 ## Juego de rol cliente-desarrollador
