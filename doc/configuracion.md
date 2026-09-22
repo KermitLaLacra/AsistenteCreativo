@@ -7,4 +7,4 @@
 <img width="886" height="109" alt="image" src="creacionRama.png" /> <br>
 
 ## 3- Comprobación de la clave SSH
-<img width="1327" height="87" alt="image" src="primerPush.png" /> <br>
+<img width="664" height="44" alt="comprobacionSSH" src="comprobacionSSH.png" /> <br>
