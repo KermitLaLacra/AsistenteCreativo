@@ -4,9 +4,23 @@ Asistente para creativos freelance que busca gestionar contrataciones, desplazam
 
 ## Descripción del problema
 
-Soy fotógrafo y videógrafo. Necesito constantemente planificar mis horarios según las necesidades y ubicación de cada cliente, asi como calcular tarifas teniendo en cuenta servicios contratados y tiempo consumido por cada uno, horas necesarias para cada servicio y distancia de desplazamiento entre sesiones consecutivas.<br>
+Soy fotógrafo y videógrafo. Necesito constantemente planificar mi agenda según las necesidades y ubicación de cada cliente, asi como calcular tarifas teniendo en cuenta servicios contratados y tiempo consumido por cada uno, horas necesarias para cada servicio y distancia de desplazamiento entre sesiones consecutivas.<br>
 
 Debido a que resulta dificil dar con la respuesta que optimice y tenga en cuenta todas estas variables, es común acabar con una agenda con horas muertas y rutas ineficientes, limitando el número máximo de clientes atendidos en un determinado período de tiempo y afectando en última instancia a mis ingresos potenciales.<br>
+
+
+## ¿De dónde provienen los datos?
+
+Los datos utilizados provienen de mi experiencia personal, agendas que haya construido en el pasado, trabajos realizados, tiempo invertido en cada trabajo, disponibilidades de clientes pasados y fechas límites de cada uno. En cuanto a los tiempos de desplazamiento que es una variable importante para la construcción de una agenda óptima, se utilizará una matriz fija con tiempos aproximados de desplazamiento entre ubicaciones (basados en mi experiencia).<br>
+
+Por el nicho al que me dedico las ubicaciones que debo incluir se reducen a un número limitado conocido al igual que los tiempos de desplazamiento. Por ejemplo: sé que si me tengo que desplazar al Circuito de Jerez desde Granada tardo 3h, si me desplazo al circuito de tabernas tardo 1h 45m, si luego tengo que ir a un concesionario en Almería capital, tardo 40 minutos desde el circuito.<br>
+
+Esta forma de afrontar la variable del tiempo de desplazamiento mediante matrices de tiempos predefinidos es utilizada, por ejemplo, por las aerolineas para gestionar las conexiones de tripulación y pasajeros dentro de un aeropuerto (Minimum Connection Times). No se calcula en tiempo real cuanto se tarda en ir de una terminal a otra, sino que se utiliza una matriz predefinida que establece tiempos fijos según la terminal de origen y destino, teniendo en cuenta estos márgenes al emitir los billetes.<br>
+
+
+## ¿Se puede testear la lógica de negocio?
+
+Si. Para comprobar la lógica de negocio con tests y que efectivamente se resuelve el problema que se tiene, se utilizaran las agendas que haya construido en el pasado, estas se compararán con la agenda propuesta por mi lógica de negocio, de esta forma se puede comprobar que efectivamente se perdió cierta cantidad de horas que podían ser aprovechadas y nos aseguramos de que en el futuro esto no vuelva a ocurrir.
 
 
 ## Juego de rol cliente-desarrollador
